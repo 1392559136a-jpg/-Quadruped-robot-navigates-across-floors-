@@ -62,9 +62,13 @@ cd planner/
 可能会爆内存，如果报已杀死进程，多半是内存爆炸了，这时候一个一个编译即可colcon build --parallel-workers 1
 *****
 
-####
+*****
 使用PCT_planner:
 1\python3 tomography.py --scene Spiral
 2\python3 plan.py --scene Spiral
 缺少了几个步骤，看官方的
-####
+*****
+*****
+我还不太会引用其他人的开源，如果您对您的开源项目有困扰，可以联系我，我进行修改。
+这是本人研究生第一个项目，希望各位可以点个star。希望大家能贡献自己的问题和版本，使得这个项目变得更加成熟稳定。
+*****
